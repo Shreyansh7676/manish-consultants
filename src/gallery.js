@@ -1,4 +1,7 @@
 import React from 'react'
+import AOS from "aos"
+import "aos/dist/aos.css"
+import { useEffect } from 'react';
 const posts = [
   {
     category: 'Design',
@@ -100,6 +103,9 @@ const posts = [
 ]
 
 export function CardTwo() {
+  useEffect(()=>{
+    AOS.init({duration:1200})
+  })
   return (
     <>
       <div className="relative isolate z-0 bg-gradient-to-t from-green-300 to-blue-400 px-6 py-7 lg:px-8">
@@ -108,7 +114,7 @@ export function CardTwo() {
             
             <div className="grid gap-6 gap-y-10 py-6 md:grid-cols-2 lg:grid-cols-3 rounded-lg">
           {posts.map((post) => (
-            <div key={post.title} className="border bg-white rounded-lg">
+            <div key={post.title} className="border bg-white rounded-lg" data-aos="fade-up">
               <img src={post.poster} className="aspect-video w-full rounded-md" alt="" />
               <div className="min-h-min p-3">
                 {/* <p className="mt-4 w-full text-xs font-semibold leading-tight text-gray-700">

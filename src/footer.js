@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link, NavLink} from "react-router-dom";
 
 export function FooterThree() {
   return (
@@ -8,7 +7,7 @@ export function FooterThree() {
         <div className="-m-8 flex flex-wrap items-center justify-between">
           <div className="w-auto p-8">
             <a href="#">
-              <div className="inline-flex items-center">
+              {/* <div className="inline-flex items-center">
                 <svg
                   width="40"
                   height="46"
@@ -22,7 +21,7 @@ export function FooterThree() {
                   />
                 </svg>
                 <span className="ml-4 text-lg font-bold text-white">DevUI</span>
-              </div>
+              </div> */}
             </a>
           </div>
           <div className="w-auto p-8">
@@ -43,7 +42,7 @@ export function FooterThree() {
                 </a>
               </li>
               <li className="p-5">
-                <a className="font-medium text-white hover:text-gray-200" href="#">
+                <a className="font-medium text-white hover:text-gray-200" href="contact">
                   Contact Us
                 </a>
               </li>

@@ -4,10 +4,16 @@ import React from 'react'
 import { Menu, X, ChevronDown, ChevronRight } from 'lucide-react'
 import Carousel from './carousel';
 import CountUp from "react-countup";
+import AOS from "aos"
+import "aos/dist/aos.css"
+import { useEffect } from 'react';
+
 
 export function HeroThree() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)
-
+  useEffect(()=>{
+    AOS.init({duration:1200})
+  })
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
   }
@@ -22,7 +28,7 @@ export function HeroThree() {
           <div className="absolute inset-x-0 -top-[4rem] -z-10 transform-gpu overflow-hidden blur-3xl md:-top-[10rem]">
             
           </div>
-          <div className="text-center">
+          <div className="text-center" data-aos="fade-up">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
             <CountUp
                     start={0}
