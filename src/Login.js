@@ -43,7 +43,7 @@ export const LoggedIn = () => {
     setIsLoading(true);
     try {
       await sendSignInLinkToEmail(auth, userEmail, {
-        url: 'http://localhost:3000/emailauth',
+        url: 'http://consultantmanish.in/emailauth',
         handleCodeInApp: true,
       });
       localStorage.setItem('email', userEmail);
