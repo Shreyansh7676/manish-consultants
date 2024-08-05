@@ -14,7 +14,7 @@ export default function CtaOne() {
                     <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
                         Project Management
                     </h2>
-                    <p className="mx-auto mt-4 max-w-xl text-justify leading-relaxed text-gray-600">
+                    <p className="mx-auto mt-4 max-w-xl text-justify leading-relaxed text-gray-600 px-4">
                         Thinking of achieving a goal other than regular work. Unable to get the way forward. Bitter past experience of Cost Overrun, Time Overrun, not achieving the expected result. All is due to unorganised approach. The process needs a systematic approach because every time new problems with assorted set of solutions, risk, and obviously approach. Here comes in Project Management System. Some basic processes to be adopted time and again to establish what suits your organisation better and improve upon those processes to excel in coming days.
                         We will help you establish the Project Management System to suit your organizational requirements.
 
