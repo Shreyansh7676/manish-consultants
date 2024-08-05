@@ -7,11 +7,17 @@ import {getAuth} from 'firebase/auth';
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyB3XiiZ3YhpmoM93h9jM-THgnRuivV8YIQ",
+
   authDomain: "consultant-manish.firebaseapp.com",
+
   projectId: "consultant-manish",
+
   storageBucket: "consultant-manish.appspot.com",
+
   messagingSenderId: "427996513361",
+
   appId: "1:427996513361:web:164ff96676d553d53a2470"
+
 };
 
 // Initialize Firebase

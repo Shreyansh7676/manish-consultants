@@ -17,6 +17,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import {AnimatePresence} from "framer-motion"
 import { useLocation } from 'react-router-dom';
 import EmailAuth from './EmailAuth.js';
+import HomeLogin from './homelogin.js'
 
 const router=createBrowserRouter(
   [{
@@ -55,6 +56,10 @@ const router=createBrowserRouter(
         {
           path:"emailauth",
           element:<EmailAuth />
+        },
+        {
+          path:"homelogin",
+          element:<HomeLogin />
         }
         
       ]
