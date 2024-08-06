@@ -20,8 +20,6 @@ export default function CtaOne() {
                         Energy  Management not only saves the cost but also achieve complete environmental sustainability, overall is loved by the investors. We are there to join you in this journey and help you achieve you goals.
                         Value Engineering
                         Systematic analysis of the functions of various components and materials to lower the cost of goods, products and services with a tolerable loss of performance or functionality. Value, as defined, is the ratio of function to cost. Value can therefore be manipulated by either improving the function or reducing the cost. It is a primary tenet of value engineering that basic functions be preserved and not be reduced as a consequence of pursuing value improvements.[3] The term "value management" is sometimes used as a synonym of "value engineering", and both promote the planning and delivery of projects with improved performance.[4]
-
-
                     </p>
                 </div>
 
