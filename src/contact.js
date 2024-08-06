@@ -19,7 +19,7 @@ export function Contact() {
     AOS.init({ duration: 1200 })
   })
   const form = useRef();
-  
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -42,7 +42,7 @@ export function Contact() {
   // const [loginError, setLoginError] = useState('');
 
   // const [infoMsg, setInfoMsg] = useState('');
-  
+
   // const [user] = useAuthState(auth);
   // const navigate = useNavigate();
   // const { search } = useLocation();
@@ -192,7 +192,7 @@ export function Contact() {
 
   return (
     <>
-    
+
       <div className="relative w-full h-4/5 scroll-smooth">
         <div className="relative isolate z-0 bg-gradient-to-t from-green-300 to-blue-400 px-6 py-6 lg:px-8">
           <div className="relative mx-auto max-w-2xl py-24">
@@ -206,8 +206,11 @@ export function Contact() {
               <p className="mt-6 text-md leading-8 text-gray-600 text-justify">
                 We'd love to hear from you! Whether you have questions, feedback, or need assistance, please reach out. You can type-in your email id and a verification link will be messaged to your email to know our email-id.
               </p>
-              <LogIn />
-              
+              <div className="mt-3">
+                <LogIn />
+              </div>
+
+
               <div className="flex items-center justify-center gap-x-2">
                 <div className="space-y-2 items-center justify-center md:flex-row md:space-x-2 md:space-y-0  ">
                   <p className="text-lg text-gray-600 mt-12">-------------------or-------------------</p>

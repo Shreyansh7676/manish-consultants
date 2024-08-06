@@ -56,17 +56,17 @@ export const LoggedIn = () => {
   };
   const LoginForm = () => (
     <form className='form-group custom-form' onSubmit={handleLogin}>
-      <label>Email</label>
+      <label className="mt-2">Email</label>
       <input
         type='email'
         required
         placeholder='Enter Email'
-        className='form-control'
+        className='form-control mt-2'
         value={userEmail}
         autoFocus="autofocus"
         onChange={(e) => setUserEmail(e.target.value)}
       />
-      <button type='submit' className='btn btn-success btn-md'>
+      <button type='submit' className='btn btn-success btn-md mt-3'>
         {isLoading ? 'Logging you in' : 'Login'}
       </button>
       {errorMessage && <div className='error-msg'>{errorMessage}</div>}
