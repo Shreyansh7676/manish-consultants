@@ -9,7 +9,7 @@ export default function FeatureThree() {
   })
   return (
     <>
-      <div className="relative h-4/5 w-full isolate z-0 bg-gradient-to-t from-green-300 to-blue-400 px-6 py-24 lg:px-8 duration-200 scroll-smooth">
+      <div className="relative h-4/5 w-full isolate z-0 bg-gradient-to-t from-green-400 to-sky-500 px-6 py-24 lg:px-8 duration-200 scroll-smooth">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
           <div className="mx-auto max-w-5xl text-center  backdrop-blur-sm bg-white/30 py-24 rounded-xl px-4" data-aos="fade-up">
             <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">

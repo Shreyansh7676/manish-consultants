@@ -108,7 +108,7 @@ export function CardTwo() {
   })
   return (
     <>
-      <div className="relative isolate z-0 bg-gradient-to-t from-green-300 to-blue-400 px-6 py-7 lg:px-8">
+      <div className="relative isolate z-0 bg-gradient-to-t from-green-400 to-sky-500 px-6 py-7 lg:px-8">
         <div className="relative mx-auto max-w-5xl py-16">
           <div className="text-center flex gap-4">
             

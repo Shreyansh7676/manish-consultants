@@ -1,17 +1,9 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import Form from 'react-bootstrap/Form';
 import { useState, useEffect } from 'react';
-import { useForm } from 'react-hook-form'
-import Modal from './modal.js'
-import { useAuthState } from 'react-firebase-hooks/auth';
-import { auth } from './firebase.js';
-import { useNavigate, useLocation } from 'react-router-dom';
-import { isSignInWithEmailLink, sendSignInLinkToEmail, signInWithEmailLink } from 'firebase/auth';
-import { Alert } from 'bootstrap';
+
 import AOS from "aos"
 import LogIn from './Login.js'
-import HomeLogin from './homelogin.js'
 import "aos/dist/aos.css"
 
 export function Contact() {
@@ -37,164 +29,13 @@ export function Contact() {
         },
       );
   };
-  // const [email, setEmail] = useState("");
-  // const [loginLoading, setLoginLoading] = useState(false);
-  // const [loginError, setLoginError] = useState('');
-
-  // const [infoMsg, setInfoMsg] = useState('');
-
-  // const [user] = useAuthState(auth);
-  // const navigate = useNavigate();
-  // const { search } = useLocation();
-  // const [userEmail, setUserEmail] = useState('');
-  // const [isLoading, setIsLoading] = useState(false);
-  // const [errorMessage, setErrorMessage] = useState('');
-  // const [infoMessage, setInfoMessage] = useState('');
-  // const [initialLoading, setInitialLoading] = useState(false);
-  // const [initialError, setInitialError] = useState('');
-
-
-  // useEffect(() => {
-  //   const authenticateUser = async () => {
-  //     if (user) {
-  //       navigate('/emailauth');
-  //       return;
-  //     }
-  //     if (isSignInWithEmailLink(auth, window.location.href)) {
-  //       let emailFromStorage = localStorage.getItem('email');
-  //       if (!emailFromStorage) {
-  //         emailFromStorage = window.prompt('Please provide your email');
-  //       }
-  //       setIsLoading(true);
-  //       try {
-  //         await signInWithEmailLink(auth, emailFromStorage, window.location.href);
-  //         localStorage.removeItem('email');
-  //         navigate('/emailauth');
-  //       } catch (error) {
-  //         setErrorMessage(error.message);
-  //         navigate('/contact');
-  //       } finally {
-  //         setIsLoading(false);
-  //       }
-  //     }
-  //   };
-  //   authenticateUser();
-  // }, [user, search, navigate]);
-
-
-  // useEffect(() => {
-  //   if (user) {
-  //     // user is already signed in
-  //     navigate('contact');
-  //   }
-  //   else {
-  //     // user is not signed in but the link is valid
-  //     if (isSignInWithEmailLink(auth, window.location.href)) {
-  //       // now in case user clicks the email link on a different device, we will ask for email confirmation
-  //       let email = localStorage.getItem('email');
-  //       if (!email) {
-  //         email = window.prompt('Please provide your email');
-  //       }
-  //       // after that we will complete the login process
-  //       setInitialLoading(true);
-  //       signInWithEmailLink(auth, localStorage.getItem('email'), window.location.href)
-  //         .then((result) => {
-  //           // we can get the user from result.user but no need in this case
-  //           console.log(result.user);
-  //           localStorage.removeItem('email');
-  //           setInitialLoading(false);
-  //           setInitialError('');
-  //           navigate('contact');
-  //         }).catch((err) => {
-  //           setInitialLoading(false);
-  //           setInitialError(err.message);
-  //           navigate('contact');
-  //         })
-  //     }
-  //     else {
-  //       console.log('enter email and sign in');
-  //     }
-  //   }
-  // }, [user, search, navigate]);
-
-
-  // const handleLogin = async (event) => {
-  //   event.preventDefault();
-  //   setIsLoading(true);
-  //   try {
-  //     await sendSignInLinkToEmail(auth, userEmail, {
-  //       url: 'http://localhost:3000/emailauth',
-  //       handleCodeInApp: true,
-  //     });
-  //     localStorage.setItem('email', userEmail);
-  //     alert('We have sent you an verification email!')
-  //   } catch (error) {
-  //     setErrorMessage(error.message);
-  //   } finally {
-  //     setIsLoading(false);
-  //   }
-  // };
-
-  // const handleLogin = (e) => {
-  //   e.preventDefault();
-  //   setLoginLoading(true);
-  //   sendSignInLinkToEmail(auth, email, {
-  //     // this is the URL that we will redirect back to after clicking on the link in mailbox
-  //     url: 'http://localhost:3000/emailauth',
-  //     handleCodeInApp: true,
-  //   }).then(() => {
-  //     localStorage.setItem('email', email);
-  //     setLoginLoading(false);
-  //     setLoginError('');
-  //     alert('We have sent you an email with a link to sign in');
-  //   }).catch(err => {
-  //     setLoginLoading(false);
-  //     setLoginError(err.message);
-  //   })
-  // }
-
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   try {
-  //     <Modal />
-  //   } catch (error) {
-  //     setErrorMessage(error.message);
-  //   } finally {
-  //     setIsLoading(false);
-  //   }
-  // };
-
-  // const LoginForm = () => (
-  //   <form className='form-group custom-form flex flex-col' onSubmit={handleLogin}>
-  //     <label className="mb-1">Email</label>
-  //     <div className="flex flex-col items-center">
-  //       <input
-  //         type='email'
-  //         autoFocus="autofocus"
-  //         placeholder='Enter your Email'
-  //         className='form-control'
-  //         value={userEmail}
-  //         required
-  //         onChange={(e) => setUserEmail(e.target.value)}
-  //       />
-  //       <button type='submit' className='btn btn-success btn-md mt-3 w-1/5'>
-  //         {isLoading ? 'Logging you in' : 'Send Email'}
-  //       </button>
-  //     </div>
-  //     {errorMessage && <div className='error-msg'>{errorMessage}</div>}
-  //     {infoMessage && <div className='info-msg'>{infoMessage}</div>}
-  //   </form>
-  // );
-
-  // if (isLoading) {
-  //   return <div>Loading...</div>;
-  // }
+  
 
   return (
     <>
 
       <div className="relative w-full h-4/5 scroll-smooth">
-        <div className="relative isolate z-0 bg-gradient-to-t from-green-300 to-blue-400 px-6 py-6 lg:px-8">
+        <div className="relative isolate z-0 bg-gradient-to-t from-green-400 to-sky-500 px-6 py-6 lg:px-8">
           <div className="relative mx-auto max-w-2xl py-24">
             <div className="absolute inset-x-0 -top-[4rem] -z-10 transform-gpu overflow-hidden blur-3xl md:-top-[10rem]">
 
@@ -312,13 +153,7 @@ export function Contact() {
                         />
                         <input type="submit" value="Send" className="inline-flex items-center rounded-md bg-black px-3 py-2 text-sm font-semibold text-white hover:bg-green-500 w-1/4 mt-2" />
                       </div>
-                      {/* <button
-                        type="button"
-                        className="inline-flex items-center rounded-md bg-black px-3 py-2 text-sm font-semibold text-white hover:bg-black/80"
-                      >
-                        Button Text
-
-                      </button> */}
+                      
                     </form>
                   </div>
                 </div>

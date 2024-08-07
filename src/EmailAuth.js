@@ -24,7 +24,7 @@ export default function CtaOne() {
   }
   const UserContent = () => (
     <>
-      <section className="bg-gradient-to-t from-green-300 to-blue-400 py-48">
+      <section className="bg-gradient-to-t from-green-400 to-sky-500 py-48">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto w-full text-center md:max-w-4xl backdrop-blur-sm bg-white/30 py-4 rounded-lg">
             <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl w-full">

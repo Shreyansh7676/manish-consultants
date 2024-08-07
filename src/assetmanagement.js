@@ -8,7 +8,7 @@ export default function CtaOne() {
     AOS.init({duration:1200})
   })
   return (
-    <section className="py-10 bg-gradient-to-t from-green-300 to-blue-400">
+    <section className="py-10 bg-gradient-to-t from-green-400 to-sky-500">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto w-full text-center md:max-w-2xl backdrop-blur-sm bg-white/30 py-5 rounded-lg" data-aos="fade-up">
           <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
