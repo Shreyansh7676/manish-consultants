@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import img1 from './images/4786530.png'
+import img1 from './images/3.png'
 import img2 from './images/planet-space-abstract-background-digital-art-2k-wallpaper-uhdpaper.com-234@0@g.jpg'
 import img3 from './images/spaceship-rocket-space-digital-art-2k-wallpaper-uhdpaper.com-274@0@j.jpg'
 import './carousel.css'
@@ -20,7 +20,7 @@ function ControlledCarousel() {
         src={img1}
         alt="First slide"
       />
-      <div className="absolute inset-0 bg-black opacity-55"></div>
+      <div className="absolute inset-0 bg-black opacity-35"></div>
         <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>

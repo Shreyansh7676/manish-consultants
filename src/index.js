@@ -12,7 +12,9 @@ import About from './about.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Asset from './assetmanagement.js';
 import Project from './projectmgmt.js'
+import Privacy from './Privacy.js'
 import Energy from './Energymgmt.js'
+import Services from './Services.js'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import {AnimatePresence} from "framer-motion"
 import { useLocation } from 'react-router-dom';
@@ -60,6 +62,14 @@ const router=createBrowserRouter(
         {
           path:"homelogin",
           element:<HomeLogin />
+        },
+        {
+          path:"services",
+          element:<Services />
+        },
+        {
+          path:"privacy",
+          element:<Privacy />
         }
         
       ]

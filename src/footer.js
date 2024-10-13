@@ -1,6 +1,8 @@
 import React from 'react'
+import { useNavigate, useLocation } from 'react-router-dom';
 
 export function FooterThree() {
+  const navigate = useNavigate();
   return (
     <section className="relative overflow-hidden bg-gray-900 py-0.2 z-0">
       <div className="container relative z-10 mx-auto px-4 py-0.2">
@@ -27,18 +29,13 @@ export function FooterThree() {
           <div className="w-auto p-8">
             <ul className="-m-5 flex flex-wrap items-center">
               <li className="p-5">
-                <a className="font-medium text-white hover:text-gray-200" href="#">
+                <a className="font-medium text-white hover:text-gray-200" href="privacy">
                   Privacy Policy
                 </a>
               </li>
               <li className="p-5">
-                <a className="font-medium text-white hover:text-gray-200" href="#">
+                <a className="font-medium text-white hover:text-gray-200" href="services">
                   Terms of Service
-                </a>
-              </li>
-              <li className="p-5">
-                <a className="font-medium text-white hover:text-gray-200" href="#">
-                  Return Policy
                 </a>
               </li>
               <li className="p-5">
