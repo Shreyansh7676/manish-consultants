@@ -8,6 +8,7 @@ import Home from './home';
 import Gallery from './gallery.js'
 import Contact from './contact.js';
 import Layout from './Layout';
+import { Analytics } from '@vercel/analytics/react';
 import About from './about.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Asset from './assetmanagement.js';
@@ -81,6 +82,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
     <RouterProvider router={router}/>
+    <Analytics />
     </>
     
 );
