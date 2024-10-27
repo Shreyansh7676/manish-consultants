@@ -6,6 +6,7 @@ import Navbar from './nabvbar';
 import Footer from './footer';
 import Home from './home';
 import Gallery from './gallery.js'
+import Disclaimer from './Disclaimer.js'
 import Contact from './contact.js';
 import Layout from './Layout';
 import { Analytics } from '@vercel/analytics/react';
@@ -20,6 +21,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import {AnimatePresence} from "framer-motion"
 import { useLocation } from 'react-router-dom';
 import EmailAuth from './EmailAuth.js';
+import ValueEng from './valueengg.js'
 import HomeLogin from './homelogin.js'
 
 const router=createBrowserRouter(
@@ -67,6 +69,14 @@ const router=createBrowserRouter(
         {
           path:"services",
           element:<Services />
+        },
+        {
+          path:"value",
+          element:<ValueEng />
+        },
+        {
+          path:"disclaimer",
+          element:<Disclaimer />
         },
         {
           path:"privacy",

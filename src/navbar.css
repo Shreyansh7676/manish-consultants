@@ -19,10 +19,13 @@
     background-color: #dddddd;
     
 }
-
-.dropdown:hover> .dropdown-menu , .dropend:hover> .dropdown-menu{
+.dropdown .dropdown-menu{
+    display: none;
+}
+.dropdown:hover > .dropdown-menu , .dropend:hover > .dropdown-menu{
     display: block;
 }
+
 
 #consultancy-1:hover,
 #consultancy-2:hover,

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import img1 from './unnamed.png'
-import img2 from '../New folder/Brown and Cream Modern Collective Instagram Post (Facebook Post).jpg'
+import img1 from '../New folder/bee-certification-services-500x500.webp'
+import img2 from '../New folder/photo_2024-10-27_21-59-43.jpg'
 import '../carousel.css'
 
 function ControlledCarousel() {
