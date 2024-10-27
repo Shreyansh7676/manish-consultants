@@ -19,8 +19,7 @@ export default function CtaOne() {
                         Value Engineering
                     </h2>
                     <p className="mx-auto mt-4 max-w-xl text-justify leading-relaxed text-gray-600 px-4">
-                        Thinking of achieving a goal other than regular work. Unable to get the way forward. Bitter past experience of Cost Overrun, Time Overrun, not achieving the expected result. All is due to unorganised approach. The process needs a systematic approach because every time new problems with assorted set of solutions, risk, and obviously approach. Here comes in Project Management System. Some basic processes to be adopted time and again to establish what suits your organisation better and improve upon those processes to excel in coming days.
-                        We will help you establish the Project Management System to suit your organizational requirements.
+                    Systematic analysis of the functions of various components and materials to lower the cost of goods, products and services with a tolerable loss of performance or functionality. Value, as defined, is the ratio of function to cost. Value can therefore be manipulated by either improving the function or reducing the cost. It is a primary tenet of value engineering that basic functions be preserved and not be reduced as a consequence of pursuing value improvements.The term "value management" is sometimes used as a synonym of "value engineering", and both promote the planning and delivery of projects with improved performance.
 
 
                     </p>
