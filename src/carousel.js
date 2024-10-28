@@ -20,10 +20,10 @@ function ControlledCarousel() {
         src={img1}
         alt="First slide"
       />
-      <div className="absolute inset-0 bg-black opacity-35"></div>
+      <div className="absolute inset-0 bg-black opacity-45"></div>
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h5>Looking for Sustainable Solutions ?</h5>
+          <h5>Operational Systems, Energy Management, Engineering, Value Engineering & Emmissions </h5>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -34,7 +34,7 @@ function ControlledCarousel() {
       />
       <div className="absolute inset-0 bg-black opacity-55"></div>
         <Carousel.Caption>
-          <h3>Second slide label</h3>
+          <h3>With Our ex</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>

@@ -2,27 +2,25 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Navbar from './nabvbar';
-import Footer from './footer';
 import Home from './home';
 import Gallery from './gallery.js'
-import Disclaimer from './Disclaimer.js'
-import Contact from './contact.js';
+import Disclaimer from './Footer/Disclaimer.js'
+import Contact from './Contact/contact.js';
 import Layout from './Layout';
 import { Analytics } from '@vercel/analytics/react';
 import About from './about.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Asset from './assetmanagement.js';
-import Project from './projectmgmt.js'
-import Privacy from './Privacy.js'
-import Energy from './Energymgmt.js'
-import Services from './Services.js'
+import Asset from './Portfolio/assetmanagement.js';
+import Project from './Portfolio/projectmgmt.js'
+import Privacy from './Footer/Privacy.js'
+import Energy from './Portfolio/Energymgmt.js'
+import Services from './Footer/Services.js'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import {AnimatePresence} from "framer-motion"
 import { useLocation } from 'react-router-dom';
-import EmailAuth from './EmailAuth.js';
-import ValueEng from './valueengg.js'
-import HomeLogin from './homelogin.js'
+import EmailAuth from './Contact/EmailAuth.js';
+import ValueEng from './Portfolio/valueengg.js'
+import HomeLogin from './Contact/homelogin.js'
 
 const router=createBrowserRouter(
   [{

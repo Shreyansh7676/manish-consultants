@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from './nabvbar'
-import Footer from './footer'
+import Navbar from './Navbar/nabvbar'
+import Footer from './Footer/footer'
 import { Outlet, Routes, useLocation } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
 function Layout() {

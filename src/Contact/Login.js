@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
-import { auth } from './firebase';
+import { auth } from '../firebase';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { isSignInWithEmailLink, sendSignInLinkToEmail, signInWithEmailLink } from 'firebase/auth';
 export const LoggedIn = () => {

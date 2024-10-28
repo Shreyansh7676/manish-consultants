@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react'
 import AOS from "aos"
-import CarouselLeft from './CarouselAsset/Carouselleft'
+import CarouselLeft from '../CarouselAsset/Carouselleft'
 import "aos/dist/aos.css"
 
 export default function CtaOne() {

@@ -1,5 +1,5 @@
 import React from 'react'
-import CarouselLeft from './CarouselValue/Carousel'
+import CarouselLeft from '../CarouselValue/Carousel'
 import { useEffect } from 'react'
 import AOS from "aos"
 import "aos/dist/aos.css"

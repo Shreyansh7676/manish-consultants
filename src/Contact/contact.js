@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import { useState, useEffect } from 'react';
 
 import AOS from "aos"
-import LogIn from './Login.js'
+import LogIn from './Login'
 import "aos/dist/aos.css"
 
 export function Contact() {
