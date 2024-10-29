@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import img1 from './images/3.png'
-import img2 from './images/planet-space-abstract-background-digital-art-2k-wallpaper-uhdpaper.com-234@0@g.jpg'
-import img3 from './images/spaceship-rocket-space-digital-art-2k-wallpaper-uhdpaper.com-274@0@j.jpg'
+import img2 from './New folder/Project Management Institute.png'
+import img3 from './New folder/Untitled-2.png'
 import './carousel.css'
 
 function ControlledCarousel() {
@@ -20,9 +20,9 @@ function ControlledCarousel() {
         src={img1}
         alt="First slide"
       />
-      <div className="absolute inset-0 bg-black opacity-45"></div>
-        <Carousel.Caption>
-          <h5>Looking for Sustainable Solutions ?</h5>
+      <div className="absolute inset-0 bg-black opacity-60"></div>
+        <Carousel.Caption className='flex flex-col h-100 items-center justify-center bottom-0'>
+          <h4 className='text-3xl'>Looking for Sustainable Solutions ?</h4>
           <h5>Operational Systems, Energy Management, Engineering, Value Engineering & Emmissions </h5>
         </Carousel.Caption>
       </Carousel.Item>
@@ -32,10 +32,10 @@ function ControlledCarousel() {
         src={img2}
         alt="Second slide"
       />
-      <div className="absolute inset-0 bg-black opacity-55"></div>
-        <Carousel.Caption>
-          <h3>With Our ex</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div className="absolute inset-0 bg-black opacity-60"></div>
+        <Carousel.Caption className='flex flex-col h-100 items-center justify-center bottom-0'>
+          <h3 className='text-3xl'>Solutions</h3>
+          <h5>Built on Expertise, Proven by Results</h5>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -45,11 +45,11 @@ function ControlledCarousel() {
         alt="Third slide"
       />
       <div className="absolute inset-0 bg-black opacity-55"></div>
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+        <Carousel.Caption className='flex flex-col h-100 items-center justify-center bottom-0'>
+          <h3 className='text-3xl'>Approach</h3>
+          <h5>
+            Structured Approach yields More
+          </h5>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
