@@ -15,19 +15,19 @@ export default function CtaOne() {
                         Privacy Policy
                     </h2>
                     <h2 className="text-md mt-3 font-normal leading-tight text-gray-700 sm:text-sm lg:text-sm">
-                        Effective Date: 1Aug 2024
+                        Effective Date: Oct 1, 2024
                     </h2>
                     <ol className="mt-4">
                         <li className="mx-auto mt-4 max-w-3xl text-justify leading-relaxed text-gray-600 px-4"><b>1. Introduction</b>
                             <br />
-                            Welcome to Shiva Consulting Engineers . We are committed to protecting your privacy and ensuring you have a positive experience on our website and in using our services .  This Privacy Policy outlines how we collect, use, disclose, and safeguard your information when you visit our website www.consulrantmanish.in, use our Service, or interact with us.
+                            Welcome to Shiva Engineering Consultants. We are committed to protecting your privacy and ensuring you have a positive experience on our website and in using our services. This Privacy Policy outlines how we collect, use, disclose, and safeguard your information when you visit our website www.shivatechconsultant.in, use our Service, or interact with us.
                         </li>
                         <li className="mx-auto mt-4 max-w-3xl text-justify leading-relaxed text-gray-600 px-4"><b>2. Information We Collect</b>
                             <br />
                             a. Personal Information
                             <br />
 
-                            We may collect personal information that can identify you directlyk or indirectly, such as your name, email address and  phone number.
+                            We may collect personal information that can identify you directly or indirectly, such as your name, email address and  phone number.
 
                         </li>
                         <li className="mx-auto mt-2 max-w-3xl text-justify leading-relaxed text-gray-600 px-4">b. Non-Personal Information

@@ -9,14 +9,16 @@ import Contact from './Contact/contact.js';
 import Layout from './Layout';
 import { Analytics } from '@vercel/analytics/react';
 import About from './about.js'
+import Techadv from './Portfolio/services/techadv.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Asset from './Portfolio/assetmanagement.js';
+import Valuation from './Portfolio/services/valuation.js'
+import EnergyAudit from './Portfolio/services/energyaudit.js'
 import Project from './Portfolio/projectmgmt.js'
 import Privacy from './Footer/Privacy.js'
 import Energy from './Portfolio/Energymgmt.js'
 import Services from './Footer/Services.js'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import {AnimatePresence} from "framer-motion"
 import { useLocation } from 'react-router-dom';
 import EmailAuth from './Contact/EmailAuth.js';
 import ValueEng from './Portfolio/valueengg.js'
@@ -69,8 +71,20 @@ const router=createBrowserRouter(
           element:<Services />
         },
         {
+          path:"techadv",
+          element:<Techadv />
+        },
+        {
           path:"value",
           element:<ValueEng />
+        },
+        {
+          path:"valuation",
+          element:<Valuation />
+        },
+        {
+          path:"energyaudit",
+          element:<EnergyAudit />
         },
         {
           path:"disclaimer",

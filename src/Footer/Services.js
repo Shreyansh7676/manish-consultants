@@ -15,12 +15,12 @@ export default function CtaOne() {
                     Terms of Service
                     </h2>
                     <h2 className="text-md mt-3 font-normal leading-tight text-gray-700 sm:text-sm lg:text-sm">
-                        Effective Date: 1Aug 2024
+                        Effective Date: Oct 1, 2024
                     </h2>
                     <ol className="mt-4">
                         <li className="mx-auto mt-4 max-w-3xl text-justify leading-relaxed text-gray-600 px-4"><b>1. Acceptance of Terms</b>
                             <br />
-                            By accessing and using the services of Shiva Consulting Engineers through this website you agree to comply with and be bound by these Terms of Service. If you do not agree to these Terms, please do not use our services.
+                            By accessing and using the services of Shiva Engineering Consultants through this website you agree to comply with and be bound by these Terms of Service. If you do not agree to these Terms, please do not use our services.
                         </li>
                         <li className="mx-auto mt-4 max-w-3xl text-justify leading-relaxed text-gray-600 px-4"><b>2. Services</b>
                             <br />

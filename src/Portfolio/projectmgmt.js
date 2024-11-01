@@ -19,9 +19,10 @@ export default function CtaOne() {
                         Project Management
                     </h2>
                     <p className="mx-auto mt-4 max-w-xl text-justify leading-relaxed text-gray-600 px-4">
-                        Thinking of achieving a goal other than regular work. Unable to get the way forward. Bitter past experience of Cost Overrun, Time Overrun, not achieving the expected result. All is due to unorganised approach. The process needs a systematic approach because every time new problems with assorted set of solutions, risk, and obviously approach. Here comes in Project Management System. Some basic processes to be adopted time and again to establish what suits your organisation better and improve upon those processes to excel in coming days.
-                        We will help you establish the Project Management System to suit your organizational requirements.
-
+                    Thinking of achieving a goal other than regular work. Unable to get the way forward. Bitter past experience of Cost Overrun, Time Overrun, and not achieving the expected result. All is due to an unorganized approach. The process needs a systematic approach because every time new problems crop up with new risks, and obvious a structured approach to get assorted set solutions is required. Here comes in Project Management System. Some basic processes are to be adopted time and again to establish what suits your organization better and improve upon those processes to excel in the coming days. 
+                    </p>
+                    <p className="mx-auto max-w-xl text-justify leading-relaxed text-gray-600 px-4">
+                    We will help you <b>establish the Project Management System </b> to suit your organizational requirements. 
 
                     </p>
                 </div>

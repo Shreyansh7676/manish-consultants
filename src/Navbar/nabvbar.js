@@ -61,11 +61,11 @@ function CollapsibleExample() {
 
 
                   <NavDropdown title="Services" id="collapsible-nav-dropdend3" drop={'end'}  st>
-                    <NavDropdown.Item href="#action/3.1" id="services-1">Energy Audit</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2" id="services-2">
+                    <NavDropdown.Item as={NavLink} to={"/energyaudit"} id="services-1">Energy Audit</NavDropdown.Item>
+                    <NavDropdown.Item as={NavLink} to={"/valuation"} id="services-2">
                       Valuation
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2" id="services-3">
+                    <NavDropdown.Item as={NavLink} to={"/techadv"} id="services-3">
                       Technical Advisory
                     </NavDropdown.Item>
                   </NavDropdown>

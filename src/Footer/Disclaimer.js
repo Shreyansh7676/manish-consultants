@@ -16,7 +16,7 @@ export default function FeatureThree() {
               Disclaimer
             </h2>
             <p className="mt-8 text-base leading-relaxed text-justify text-gray-600">
-            All trademarks, service marks, trade names, product names, logos, and brands appearing on this site are the property of their respective owners. Any use of these marks, names, or brands does not imply endorsement. [Shiva Consulting Engineers] is not affiliated with, sponsored by, or endorsed by any of the trademark owners unless explicitly stated.
+            All trademarks, service marks, trade names, product names, logos, and brands appearing on this site are the property of their respective owners. Any use of these marks, names, or brands does not imply endorsement. [Shiva Engineering Consultants] is not affiliated with, sponsored by, or endorsed by any of the trademark owners unless explicitly stated.
             </p>
             <p className="mt-8 text-base leading-relaxed text-justify text-gray-600">
             Use of this website will be at the sole risk of the user. Use of any service will not create any lawyer-client relationship. Shiva Consulting Engineers  will not be liable for any consequence of any action taken by the user relying on information or services provided under this website. In cases where the user has any legal issues, he/she in all cases must seek independent legal advice.

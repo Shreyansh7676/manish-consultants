@@ -23,9 +23,10 @@ export default function CtaOne() {
                     <p className="mx-auto mt-4 max-w-xl text-justify leading-relaxed text-gray-600 px-4">
                         Energy management is a process that involves optimization of energy use for the best possible outcomes and taking steps for its conservation. It also includes planning related to the production of energy and its storage for future usage.
                         Energy Saved is Energy Produced is an old saying and is always relevant. Demand of Energy is continuously pushing the cost northwards, hence any saving in energy is tangible. Energy Management also helps in achieving ESG/ SDG goals,
-                        Energy  Management not only saves the cost but also achieve complete environmental sustainability, overall is loved by the investors. We are there to join you in this journey and help you achieve your goals.
-
-
+                        Energy  Management not only saves costs but also achieves complete environmental sustainability, and overall is loved by investors.
+                    </p>
+                    <p className="mx-auto max-w-xl text-justify leading-relaxed text-gray-600 px-4">
+                        We are here to join you in the<b> Energy Management journey </b>and help you achieve your goals.
                     </p>
                 </div>
 
