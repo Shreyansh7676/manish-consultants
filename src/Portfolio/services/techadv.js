@@ -19,7 +19,7 @@ export default function CtaOne() {
                         Technical Advisory
                     </h2>
                     <p className="mx-auto mt-4 max-w-3xl text-justify leading-relaxed text-gray-600 px-4">
-                        <b>Well planned is have done</b> is a famous saying.  Planning plays an important role in any activity. To run a successful business as an entrepreneur you need to systematise the complete operation right from selecting to establishing and sustaining.  Due diligence Value Analysis and linking activities with productivity are the major steps in the Layout of the plant.
+                        <b>Well planned is half done</b> is a famous saying.  Planning plays an important role in any activity. To run a successful business as an entrepreneur you need to systematise the complete operation right from selecting to establishing and sustaining.  Due diligence Value Analysis and linking activities with productivity are the major steps in the Layout of the plant.
                     </p>
                     <p className="mx-auto max-w-3xl text-justify leading-relaxed text-gray-600 px-4">
                         Layout with suitable equipment helps in various management aspects namely

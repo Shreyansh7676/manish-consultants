@@ -16,6 +16,7 @@ import Valuation from './Portfolio/services/valuation.js'
 import EnergyAudit from './Portfolio/services/energyaudit.js'
 import Project from './Portfolio/projectmgmt.js'
 import Privacy from './Footer/Privacy.js'
+import Manufacturing from './Portfolio/Manufacturing.js'
 import Energy from './Portfolio/Energymgmt.js'
 import Services from './Footer/Services.js'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
@@ -89,6 +90,10 @@ const router=createBrowserRouter(
         {
           path:"disclaimer",
           element:<Disclaimer />
+        },
+        {
+          path:"manufacturing",
+          element:<Manufacturing />
         },
         {
           path:"privacy",

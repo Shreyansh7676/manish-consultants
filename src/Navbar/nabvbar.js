@@ -47,16 +47,10 @@ function CollapsibleExample() {
                   </NavDropdown>
 
 
-                  <NavDropdown title="Manufacturing" id="collapsible-nav-dropdend2" drop={'end'} st>
-                    <NavDropdown.Item href="#action/3.1" id="manufacturing-1">Special Purpose Machine</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2" id="manufacturing-2">
-                      Air Pollution Control Devices
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3" id="manufacturing-3">Industrial Structure</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3" id="manufacturing-4">General Fabrication</NavDropdown.Item>
-                  </NavDropdown>
+                  
 
 
+                  <NavDropdown.Item as={NavLink} to={"/manufacturing"} id="sales-nav">Manufacturing</NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.3" id="sales-nav">Sales</NavDropdown.Item>
 
 
