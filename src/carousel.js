@@ -20,7 +20,7 @@ function ControlledCarousel() {
         src={img1}
         alt="First slide"
       />
-      <div className="absolute inset-0 bg-black opacity-60"></div>
+      <div className="absolute inset-0 bg-black opacity-45"></div>
         <Carousel.Caption className='flex flex-col h-100 items-center justify-center bottom-0'>
           <h4 className='text-3xl'>Looking for Sustainable Solutions ?</h4>
           <h5>Operational Systems, Energy Management, Engineering, Value Engineering & Emmissions </h5>
