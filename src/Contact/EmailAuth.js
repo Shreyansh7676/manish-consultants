@@ -28,10 +28,10 @@ export default function CtaOne() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto w-full text-center md:max-w-4xl backdrop-blur-sm bg-white/30 py-4 rounded-lg">
             <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl w-full">
-              Email Auth
+              You can contact us at our email:
             </h2>
-            <p className="mx-auto mt-4 max-w-4xl text-base leading-relaxed text-gray-600 px-4">
-              xyz@gmail.com
+            <p className="mx-auto mt-4 font-bold max-w-4xl text-base leading-relaxed text-gray-600 px-4">
+              shivatechconsultants@gmail.com
             </p>
             <button
               type="button"
