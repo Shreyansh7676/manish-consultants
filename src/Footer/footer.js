@@ -5,7 +5,7 @@ export function FooterThree() {
   const navigate = useNavigate();
   return (
     <section className="relative overflow-hidden bg-gray-900 py-0.2 z-0">
-      <div className="container relative z-10 mx-auto px-4 py-0.2">
+      <div className="container relative z-10 mx-auto px-4">
         <div className="-m-8 flex flex-wrap items-center justify-between">
           <div className="w-auto p-8">
             <a href="#">
@@ -37,7 +37,7 @@ export function FooterThree() {
           </div>
           <div className="w-auto p-8">
             <div className="-m-1.5 flex flex-wrap">
-              <div className="w-auto p-1.5">
+              {/* <div className="w-auto p-1.5">
                 <a href="#">
                   <div className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-300 hover:border-gray-400">
                     <svg
@@ -54,8 +54,8 @@ export function FooterThree() {
                     </svg>
                   </div>
                 </a>
-              </div>
-              <div className="w-auto p-1.5">
+              </div> */}
+              {/* <div className="w-auto p-1.5">
                 <a href="#">
                   <div className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-300 hover:border-gray-400">
                     <svg
@@ -72,8 +72,8 @@ export function FooterThree() {
                     </svg>
                   </div>
                 </a>
-              </div>
-              <div className="w-auto p-1.5">
+              </div> */}
+              {/* <div className="w-auto p-1.5">
                 <a href="#">
                   <div className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-300 hover:border-gray-400">
                     <svg
@@ -90,10 +90,18 @@ export function FooterThree() {
                     </svg>
                   </div>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
+          
         </div>
+        
+      <div className='flex space-x-1 justify-center'>
+        <p class=" text-center text-sm text-gray-300">
+          Developed by
+        </p>
+        <a href='https://www.linkedin.com/in/shreyansh-srivastava-945034257/' class="text-center text-sm text-gray-300" target='blank'>Shreyansh Srivastava</a>
+      </div>
       </div>
     </section>
   )
