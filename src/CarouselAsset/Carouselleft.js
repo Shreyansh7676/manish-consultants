@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import img1 from './unnamed.png'
+import img1 from '../New folder/new.png'
+import img3 from './unnamed.png'
 import img2 from '../New folder/Brown and Cream Modern Collective Instagram Post (Facebook Post).jpg'
 import '../carousel.css'
 
@@ -32,7 +33,7 @@ function ControlledCarousel() {
       <Carousel.Item>
       <img style={{height:'50vh',objectFit:'contain'}}
         className="d-block w-100 rounded-lg"
-        src={img1}
+        src={img3}
         alt="Third slide"
       />
       
